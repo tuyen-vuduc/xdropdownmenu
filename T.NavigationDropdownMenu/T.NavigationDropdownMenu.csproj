@@ -86,6 +86,16 @@
     <Compile Include="ViewController.designer.cs">
       <DependentUpon>ViewController.cs</DependentUpon>
     </Compile>
+    <Compile Include="DropdownMenuView.cs" />
+    <Compile Include="DropdownMenuConfiguration.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
+  <ItemGroup>
+    <BundleResource Include="Resources\arrow_down_icon.png" />
+    <BundleResource Include="Resources\arrow_down_icon%402x.png" />
+    <BundleResource Include="Resources\arrow_down_icon%403x.png" />
+    <BundleResource Include="Resources\checkmark_icon.png" />
+    <BundleResource Include="Resources\checkmark_icon%402x.png" />
+    <BundleResource Include="Resources\checkmark_icon%403x.png" />
+  </ItemGroup>
 </Project>

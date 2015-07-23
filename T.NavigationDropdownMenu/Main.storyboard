@@ -51,4 +51,8 @@
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedScreenMetrics key="destination" type="retina47"/>
     </simulatedMetricsContainer>
+    <resources>
+        <image name="arrow_down_icon.png" width="12" height="7"/>
+        <image name="checkmark_icon.png" width="40" height="40"/>
+    </resources>
 </document>
